@@ -13,6 +13,7 @@
 		F6C4411825500DBB00D81FAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C4411725500DBB00D81FAF /* Preview Assets.xcassets */; };
 		F6C4412325500DBB00D81FAF /* GameStore_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4412225500DBB00D81FAF /* GameStore_SwiftUITests.swift */; };
 		F6C4412E25500DBB00D81FAF /* GameStore_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4412D25500DBB00D81FAF /* GameStore_SwiftUIUITests.swift */; };
+		F6C4414225500E9100D81FAF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4414125500E9100D81FAF /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F6C4412925500DBB00D81FAF /* GameStore-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GameStore-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C4412D25500DBB00D81FAF /* GameStore_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		F6C4412F25500DBB00D81FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C4414125500E9100D81FAF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,9 @@
 		F6C4410F25500DB900D81FAF /* GameStore-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F6C4414025500E7F00D81FAF /* Model */,
+				F6C4413F25500E6A00D81FAF /* ViewModel */,
+				F6C4413E25500E5F00D81FAF /* View */,
 				F6C4411025500DB900D81FAF /* GameStore_SwiftUIApp.swift */,
 				F6C4411225500DB900D81FAF /* ContentView.swift */,
 				F6C4411425500DBB00D81FAF /* Assets.xcassets */,
@@ -128,6 +133,28 @@
 				F6C4412F25500DBB00D81FAF /* Info.plist */,
 			);
 			path = "GameStore-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		F6C4413E25500E5F00D81FAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6C4414125500E9100D81FAF /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6C4413F25500E6A00D81FAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6C4414025500E7F00D81FAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C4411325500DB900D81FAF /* ContentView.swift in Sources */,
+				F6C4414225500E9100D81FAF /* Home.swift in Sources */,
 				F6C4411125500DB900D81FAF /* GameStore_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
