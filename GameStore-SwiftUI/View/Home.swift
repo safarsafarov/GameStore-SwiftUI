@@ -11,12 +11,17 @@ struct Home : View {
     
     
     var body: some View{
-        ScrollView(.vertical, showsIndicators: false) {
-            LazyVStack {
-                HStack {
-                    Text("Game Store")
-                        .font(.title)
-                }
+        
+        static var previews: some View {
+            ContentView()
+        }
+    }
+    
+    
+    struct Home : View {
+        var body: some View {
+            ScrollView(.vertical, showsIndicators: false) {
+                
             }
         }
     }
