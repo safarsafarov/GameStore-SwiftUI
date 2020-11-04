@@ -1,1 +1,2 @@
-<img src="https://github.com/safarsafarov/Foody-App/blob/master/game.png" alt="game" style="width:200px;"/>
+![alt text](https://github.com/safarsafarov/GameStore-SwiftUI/blob/master/game.png?raw=true)
+
